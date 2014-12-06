@@ -39,7 +39,7 @@ For example, to send a message to the `testActor` every 300 microseconds:
 
 > **Note:** This example uses implicit conversions defined in `scala.concurrent.duration` to convert numbers to `Duration` objects with various time units.
 
-Similarly, to run a block of code one seconds from now:
+Similarly, to run a block of code one second from now:
 
 @[play-akka-actor-schedule-run-once](code/ScalaAkka.scala)
 
